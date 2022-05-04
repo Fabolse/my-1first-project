@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+body {
+   background-color: hsl(260, 23%, 92%);
+   color: rgb(18, 2, 31);
+   font-size: 17px;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: blue;
+}
+/* a:visited {
+    color: grey;
+} */
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 40px;
+}
+.ava {
+    width: 255px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+@media (max-widht: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h3 {
+    margin-bottom: 15px;
+}
+
+.info p {
+    font-style: italic;
+    margin: 0;
+}
+
+.bg-yellow {
+    background-color: rgb(228, 255, 131);
+}
+
+.bg-green {
+    background-color: rgb(63, 245, 63);
+}
+
+.bg-blue {
+    background-color: rgb(173, 201, 255);
+}
+
+.edu {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.hobby {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.content {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td:nth-child(1) {
+    color: #000000;
+    font-weight: bold;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form_group label {
+    display: block;
+    color: #86898f;
+}
+.form_group input,
+.form_group textarea{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    font-family: inherit;
+    padding: 15px 0 10px;
+    box-sizing: border-box;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form_group {
+    width: 55%;
+}
+.row > .form_group:first-child {
+    margin-right: 20px;
+}
+
+.btn {
+    background-color: black;
+    padding: 15 20;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn:hover {
+    opacity: 0.9;
+}
